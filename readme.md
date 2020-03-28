@@ -1,15 +1,17 @@
 # local-node-mock
 
-Local mock skeletal app in nodejs (using Express) to help local development. 
+A skeletal app built in nodejs (using Express) to help build mocks for local development. 
 
-Add your JSON/XML etc files in `mocks/`. Add entry in the `http-mappers.js` for your mock and another entry in `index.js` for the path to your mock URL.
+Although there are many examples and blogs on the net on how to quickly whip one up using Express, this app provides a quick and easy way to get started with it - simply clone, add your mocks and run.
+
+## Adding Mocks
+Add your JSON/XML etc files in `mocks/`. Add entry in the `http-mappers.js` for your mock response handler and another entry in `index.js` for the path to your mock URL.
 
 ## Running
 
 Clone this repository and run `npm install`.
 
 Then run `node index.js` to fire it up. It runs: `https://localhost:7777`
-
 
 ## Changing Configs
 Configs like environment name in mock URLs or runtime port are in `config.js`. 
