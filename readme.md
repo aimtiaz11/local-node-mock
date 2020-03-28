@@ -17,7 +17,7 @@ Then run `node index.js` to fire it up. It runs: `https://localhost:7777`
 Configs like environment name in mock URLs or runtime port are in `config.js`. 
 
 ## SSL Certs
-This app has dummy geneated ssl certs for demo purposes. Please generate fresh pair when running in your server/environment!
+This app uses dummy generated SSL certs for demo purpose. Please generate fresh pair before running in your server/environment!
 
 
 ## License
