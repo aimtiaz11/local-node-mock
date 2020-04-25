@@ -1,6 +1,6 @@
 # local-node-mock
 
-A skeletal app built in nodejs (using Express) to help build mocks for local development. 
+A skeletal app built in NodeJS (using Express) to help build mocks for local development. 
 
 Although there are many examples and blogs on the net on how to quickly whip one up using Express, this app provides a quick and easy way to get started with it - simply clone, add your mocks and run.
 
