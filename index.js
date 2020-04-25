@@ -17,11 +17,8 @@ app.all("*", (req, res, next) => {
     next();
 });
 
-
+// Add all your mock routes and handlers
 app.get('api/v1/message', httpMapper.myApp.successResponse);
-
-
-
 
 // Create app
 https.createServer({
@@ -30,4 +27,4 @@ https.createServer({
   }, app)
   .listen(config.port, () => {
     console.log(`Local Mocks listening on ${config.port}! Go to https://localhost:${config.port}/`)
-  })
+  });
